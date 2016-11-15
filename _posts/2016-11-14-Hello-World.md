@@ -3,12 +3,6 @@ layout: post
 title: ATMega328P hello world on Linux Mint
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
-
 In this post I will describe how to setup Linux Mint desktop to be able to put some basic `hello world` style code sample.
 
 ## Setting up environment
@@ -81,8 +75,7 @@ According to [this](http://electronics.stackexchange.com/a/181900) answer on sta
 
 You do this either by setting the "slow SCK" jumper of your USBASP, if it has one, or by using the avrdude `-B` option
 
-![](/content/images/2016/11/Untitled-Diagram.png)
-
+![_config.yml]({{ site.baseurl }}/images/diagram.png)
 
 **Useful links:**
 
